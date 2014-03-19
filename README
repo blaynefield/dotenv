@@ -1,0 +1,17 @@
+# common bash and vim environment
+
+# download the repository from get
+git clone git://github.com/blaynefield/dotenv.git
+
+# make back-up copies of the existing environment
+mv ~/.bashrc ~/.bashrc_orig
+mv ~/.bash_aliases ~/.bash_aliases_orig
+mv ~/.screenrc ~/.screenrc_orig
+mv ~/.vimrc ~/.vimrc_orig
+mv ~/.vim ~/.vim_orig
+mv ~/.xmonad ~/.xmonad_orig
+mv ~/.xmobarrc ~/.xmobarrc_orig
+
+# set the symbolic links 
+ln -s ~/dotenv/dotbash/bashrc ~/.bashrc
+ln -s ~/dotenv/dotvim/vimrc ~/.vimrc
