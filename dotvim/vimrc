@@ -1,1 +1,19 @@
+set expandtab
+set tabstop=2
+
+set colorcolumn=80
+set nocp
+
 syntax on
+
+set ignorecase
+set smartcase
+
+set incsearch
+
+set scrolloff=2
+
+set wildmode=longest,list
+
+filetype plugin on
+
