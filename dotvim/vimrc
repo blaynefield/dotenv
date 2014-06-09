@@ -1,7 +1,6 @@
 set expandtab
 set tabstop=2
 
-set colorcolumn=80
 set nocp
 
 syntax on
@@ -17,3 +16,5 @@ set wildmode=longest,list
 
 filetype plugin on
 
+nmap <F5> :make <CR>
+nmap <C-F5> :!make clean; make <CR>
